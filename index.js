@@ -19,10 +19,10 @@ function iLoveTheBeatles(n) {
 
   do {
     output.push("I love the Beatles!");
+    n++;
   }
   while (n < 15) {
     output.push("I love the Beatles!");
-    n++;
   }
   return output;
 }
